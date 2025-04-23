@@ -8,22 +8,85 @@ const App = () => {
   return (
     <div className={`app-container ${theme}`}>
       <header>
-        <img
-          src="./logo.png"
-          alt="logo"
-          srcSet="./logo.png"
-          width="200px"
-        />
-        <h1>Políticas de Privacidad</h1>
+        <img src="./logo.png" alt="logo" srcSet="./logo.png" width="200px" />
+        <h1>POLÍTICAS DE PRIVACIDAD DE FITLEVEL</h1>
         <ThemeSwitch theme={theme} toggleTheme={toggleTheme} />
       </header>
       <main>
-        <h1>Política de Privacidad</h1>
-
-        <h2>2.3 Información de salud y bienestar</h2>
         <p>
-          Recopilamos datos relacionados con tu salud y bienestar, incluyendo:
+          <strong>Última actualización:</strong> 22 de abril de 2025
         </p>
+
+        <h2>1. INTRODUCCIÓN</h2>
+        <p>
+          Bienvenido a FitLevel, la aplicación móvil diseñada para ayudarte a
+          alcanzar tus objetivos de salud y fitness mediante el conteo de
+          calorías a través de fotografías de alimentos. En FitLevel
+          ("nosotros", "nuestro", "la aplicación"), valoramos tu privacidad y
+          nos comprometemos a proteger tus datos personales.
+        </p>
+        <p>
+          Estas Políticas de Privacidad explican cómo recopilamos, utilizamos,
+          procesamos, compartimos y protegemos tu información cuando utilizas
+          nuestra aplicación, incluyendo el procesamiento de fotografías para el
+          conteo de calorías y el seguimiento de tu progreso para la pérdida de
+          peso o el aumento muscular.
+        </p>
+        <p>
+          Por favor, lee detenidamente estas políticas para comprender nuestras
+          prácticas con respecto a tus datos personales.
+        </p>
+
+        <h2>2. INFORMACIÓN QUE RECOPILAMOS</h2>
+
+        <h3>2.1 Información proporcionada por ti</h3>
+        <ul>
+          <li>
+            <strong>Información de registro:</strong> Nombre, dirección de
+            correo electrónico, contraseña, fecha de nacimiento y género.
+          </li>
+          <li>
+            <strong>Información de perfil:</strong> Altura, peso, objetivos de
+            fitness (pérdida de peso o aumento muscular), nivel de actividad
+            física.
+          </li>
+          <li>
+            <strong>Fotografías de alimentos:</strong> Imágenes que subes para
+            el análisis y conteo de calorías.
+          </li>
+          <li>
+            <strong>Registros de actividad:</strong> Datos sobre ejercicios,
+            entrenamientos y actividad física que decides compartir.
+          </li>
+          <li>
+            <strong>Comunicaciones:</strong> El contenido de tus mensajes,
+            preguntas o comentarios que nos envías directamente.
+          </li>
+        </ul>
+
+        <h3>2.2 Información recopilada automáticamente</h3>
+        <ul>
+          <li>
+            <strong>Datos de uso:</strong> Interacciones con la aplicación,
+            frecuencia de uso, funciones utilizadas, tiempo de uso.
+          </li>
+          <li>
+            <strong>Información del dispositivo:</strong> Tipo de dispositivo,
+            sistema operativo, identificador único del dispositivo, dirección
+            IP.
+          </li>
+          <li>
+            <strong>Datos de ubicación:</strong> Con tu consentimiento, podemos
+            acceder a tu ubicación aproximada o precisa.
+          </li>
+          <li>
+            <strong>Datos del sensor:</strong> Si proporcionas permiso, podemos
+            recopilar datos de sensores de tu dispositivo como acelerómetro y
+            giroscopio para rastrear actividad física.
+          </li>
+        </ul>
+
+        <h3>2.3 Información de salud y bienestar</h3>
         <ul>
           <li>Peso y medidas corporales</li>
           <li>Ingesta calórica</li>
